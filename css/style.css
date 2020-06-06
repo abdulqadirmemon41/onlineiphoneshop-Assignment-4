@@ -1,0 +1,147 @@
+/* Navbar */
+.navbar {
+    background-color:#4285F4 !important;
+  
+}
+.navbar a:hover, .dropdown-item:hover{
+    color: #cceeff !important;
+}
+.img-bg{
+    background-color:#4285F4;
+}
+
+.nav-link{
+    color:#ffffff !important;
+    font-weight: bold !important;
+}
+.fa-shopping-cart, .fa-user-circle-o{
+    font-size: 32px;
+}
+
+/* Cards */
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px;
+    margin-right: 10px;
+    color: #4285F4 ;
+}
+
+.mainCard h3{
+    color: #4285F4 ;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* New Arrivals */
+.newArrivals h1{
+    text-align: center;
+    color: #4285F4 ;
+    font-weight: bold;
+    margin: 20px;
+    text-shadow: 2px 2px 4px black;
+
+}
+.newArrivals{
+    margin-top: 50px;
+}
+
+.newArrivals .card{
+    width: 220px;
+    height: auto;
+    margin-bottom: 5px;
+
+}
+
+/* Global */
+.btn-primary{
+    width: 100%;
+    background-color: #4285F4 ;
+}
+
+.dropdown-menu{
+    background-color: #4285F4;
+    
+ 
+}
+.dropdown-menu .dropdown-item{
+    color: #fff !important;
+    font-weight: bold;
+    background: none;
+
+}
+
+.current{
+    background-color: #00b3b3 !important;
+    
+}
+
+
+ /* About Us , Contact Us ,iphone*/
+
+ .about h1,.contact h1,.iphone h1{
+     background-color: #4285F4;
+     color: #fff;
+     
+ }
+ .about h3, .contact h3{
+    color: #4285F4;
+ }
+
+ .contact .followme a{
+     margin-right: 10px;
+ }
+ 
+
+/* Footer  */
+.footer{
+    
+    width: 100%;
+    background-color: #4285F4 ;
+    height: 70px;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.footer h4{
+  color: #fff;
+ 
+}
+
+
+
+/* Media Query */
+@media screen and (max-width: 768px){
+    .card1,.card2,.card3{
+        width:100%;
+    }
+
+    
+   
+}
+
+@media screen and(max-width: 320px){
+    .col-sm-12{
+        width: 100%;
+
+    }
+}
+
+
+
